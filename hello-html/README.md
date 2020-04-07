@@ -36,6 +36,10 @@
     }
     ```
 
+6. S3에 file upload
+    ![s3 policy](./images/upload.png)
+    - hello-html folder에서 `static` folder 와 index.html file을 upload한다.
+
 ## 숙제
 
 html을 변경하고 다른 홈페이지 만들기!
