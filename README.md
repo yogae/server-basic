@@ -2,7 +2,7 @@
 
 ![image](./images/outline.jpg)
 
-## 개념
+## 용어
 
 - 정적서버(web server)
 - 동적서버(web application server - was)
