@@ -9,7 +9,7 @@
 
 ## 사전준비
 
-- [AWS CLI 설치하기](./etc/aws-cli.md)
+- [AWS CLI 설치하기](./aws-cli.md)
 
 ## 계획
 
