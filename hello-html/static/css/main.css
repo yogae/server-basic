@@ -1,0 +1,32 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.title {
+    margin: 90px auto;
+    max-width: 340px;
+    border: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.inputText {
+    width: 200px;
+    font-size: large;
+}
+
+.inputButton {
+    font-size: large;
+}
+
+
+#textList {
+    margin: 10px auto;
+    padding: 20px;
+    text-align: left;
+    background-color: aquamarine;
+}
+
+#textList .row {
+    color: black;
+}
