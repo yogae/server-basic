@@ -15,7 +15,7 @@
 3. `bucket 만들기`에서 아래 사진과 같이 설정
     ![create bucket](./images/create-bucket.png)
     - S3 bucket을 만들때 기본적으로 모든 접근이 차단되어 있음 -> 모든 퍼블리 엑세스 차단을 해제하여 public한 bucket을 만듦
-    - S3 bucket 이름은 모든 사용자의 bucket 이름중에서 unique헤야함
+    - S3 bucket 이름은 모든 사용자의 bucket 이름중에서 unique해야함
 4. S3 bucket에서 static hosting 설정하기
     ![create bucket](./images/hosting.png)
 5. S3 bucket에서 access 권한 설정하기
