@@ -2,6 +2,13 @@ body {
     background-color: #f9f9f9;
 }
 
+img {
+    height: 300px;
+    width: auto;
+    display: block;
+    margin: 0px auto;
+}
+
 .title {
     margin: 90px auto;
     max-width: 340px;
