@@ -29,8 +29,7 @@
                 "Effect":"Allow",
             "Principal": "*",
             "Action":["s3:GetObject"],
-            "Resource":["arn:aws:s3:::example-bucket/*"
-            ]
+            "Resource":["arn:aws:s3:::example-bucket/*"]
             }
         ]
     }
@@ -47,3 +46,4 @@ html을 변경하고 다른 홈페이지 만들기!
 ## Reference
 
 - [S3 web hosing](https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/dev/WebsiteAccessPermissionsReqd.html)
+- [storage](https://medium.com/harrythegreat/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%EC%83%81-%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80-object-storage-%EB%9E%80-9d9c2da57649)
