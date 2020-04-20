@@ -1,7 +1,7 @@
-def hello(name):
-    print("hello " + name)
+def hello2(x):
+    print("hello2 " + x)
 
-hello("jihyun")
+hello2("home")
 
 def sum(a, b):
     return a + b

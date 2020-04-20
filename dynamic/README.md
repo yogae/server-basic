@@ -11,6 +11,11 @@ python hello_world.py
 ## crawler
 
 ```bash
+pip install requests
+pip install beautifulsoup4
+```
+
+```bash
 python crawler.py
 ```
 
