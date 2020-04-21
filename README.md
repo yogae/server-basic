@@ -18,3 +18,4 @@
 - [x] [정적 웹 사이트 호스팅](./hello-html/README.md)
 - [x] [동적 서버](./dynamic/README.md)
 - [ ] [aws-sdk 사용](./aws-sdk/README.md)
+- [ ] 자료형 문제 - homework folder 확인
