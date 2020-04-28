@@ -7,6 +7,10 @@
 - 정적서버(web server)
 - 동적서버(web application server - was)
 
+## 자료
+
+- [python 자료형](./data-type.md)
+
 ## 사전준비
 
 - [AWS CLI 설치하기](./aws-cli.md)
