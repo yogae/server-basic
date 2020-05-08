@@ -21,7 +21,7 @@
 - [x] 전반적인 server 동작에 대한 이해
 - [x] [정적 웹 사이트 호스팅](./hello-html/README.md)
 - [x] [동적 서버](./dynamic/README.md)
-- [ ] 자료형 문제 - homework folder 확인
+- [x] 자료형 문제 - homework folder 확인
 - [ ] [python class 사용](./python/README.md) 및 [pandas](./pandas/README.md)
 - [ ] [aws-sdk 사용](./aws-sdk/README.md)
 - [ ] 
