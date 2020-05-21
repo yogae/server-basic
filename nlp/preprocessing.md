@@ -8,7 +8,7 @@
 sudo python -m nltk.downloader -d /usr/local/share/nltk_data punkt
 ```
 
-토큰의 기준을 단어로 하는 경우, 단어 토큰화라고 한다. ”It's an amazing experience here.”문장을 단어를 기준으로 tokenize하면 아래와 같다. 
+토큰의 기준을 단어로 하는 경우, 단어 토큰화라고 한다. ”It's an amazing experience here.”문장을 단어를 기준으로 tokenize하면 아래와 같다.
 
 ```python
 text = "It's an amazing experience here."
@@ -91,7 +91,7 @@ NLTK에서는 정규 표현식을 사용해서 단어 토큰화를 수행하는 
 import nltk
 from nltk.tokenize import RegexpTokenizer
 tokenizer=RegexpTokenizer("[\w]+")
-print(tokenizer.tokenize("Don't be fooled by the dark sounding name, Mr. Jone's Orphanage is as cheery as cheery goes for a pastry shop")) # ['Don', 't', 'be', 'fooled', 'by', 'the', 'dark', 'sounding', 'name', 'Mr', 'Jone', 's', 'Orphanage', 'is', 'as', 'cheery', 'as', 'cheery', 'goes', 'for', 'a', 'pastry', 'shop'] 
+print(tokenizer.tokenize("Don't be fooled by the dark sounding name, Mr. Jone's Orphanage is as cheery as cheery goes for a pastry shop")) # ['Don', 't', 'be', 'fooled', 'by', 'the', 'dark', 'sounding', 'name', 'Mr', 'Jone', 's', 'Orphanage', 'is', 'as', 'cheery', 'as', 'cheery', 'goes', 'for', 'a', 'pastry', 'shop']
 ```
 
 문자 또는 숫자가 1개 이상인 경우를 인식하는 코드이다. 따라서 문장에서 구두점을 제외하고, 단어들만을 가지고 토큰화를 수행하게 된다.
@@ -110,7 +110,7 @@ low당 단어 token의 빈도수를 구한다.
 from sklearn.feature_extraction.text import CountVectorizer
 cv = CountVectorizer(lowercase=True, stop_words="english") # 대문자 -> 소문자, 영어 불용어를 제거하고 남은 단어들로 vector를 생성한다.
 cv_reviews = cv.fit_transform(reviews)
-cv_reviews.toarray() 
+cv_reviews.toarray()
 # array([[0, 0, 2, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0],
 # [1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1]], dtype=int64)
 
@@ -121,7 +121,7 @@ print(u_words)
 
 ### TF-IDF Transform
 
-low당 단어 token의 빈도수를 구한 후 단어의 가중치를 계산한다. 빈도수가 많은 단어의 가중치를 줄이고 빈도수가 적은 단어 가중치를 높게 계산한다. 
+low당 단어 token의 빈도수를 구한 후 단어의 가중치를 계산한다. 빈도수가 많은 단어의 가중치를 줄이고 빈도수가 적은 단어 가중치를 높게 계산한다.
 
 ```txt
 # tf: term frequency
@@ -134,7 +134,7 @@ tf-idf(t, d) = tf(t, d) * idf(t)
 # n: the total number of documents
 # df(t): the document frequency of t
 # if smooth_idf=False
-idf(t) = log [ n / df(t) ] + 1 
+idf(t) = log [ n / df(t) ] + 1
 
 # if smooth_idf=True - 제로 나누기를 방지한다.
 idf(t) = log [ (1 + n) / (1 + df(t)) ] + 1
@@ -152,6 +152,6 @@ pd.DataFrame(tfidf_reviews.toarray(),columns=tfidf_u_words)
 
 `ngram_range`는 n-gram은 n개의 연속적인 단어 나열을 의미한다. [참고](https://wikidocs.net/21692)
 
-
 ## Reference
+
 * [1) 토큰화(Tokenization) - 딥 러닝을 이용한 자연어 처리 입문](https://wikidocs.net/21698)
